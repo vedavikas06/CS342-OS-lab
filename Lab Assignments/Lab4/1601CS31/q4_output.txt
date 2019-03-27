@@ -1,0 +1,8 @@
+4
+parent process
+parent and child process id's: 28119 , 28120
+child process
+child process id 28120
+slept for : 4 sec
+-------------
+

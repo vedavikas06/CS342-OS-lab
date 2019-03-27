@@ -1,0 +1,1 @@
+First we are creating the Child Process and then making it wait for a specific period of time using sleep() command. Now the child dies after sleeping. The Parent has till now waited for the Child Process to end using wait() command, then it itself exits.

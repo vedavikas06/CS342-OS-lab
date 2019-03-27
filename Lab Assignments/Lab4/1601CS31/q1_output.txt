@@ -1,0 +1,2 @@
+child process id is 28070 in parent process
+parent process id is 28069 in child process

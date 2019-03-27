@@ -1,0 +1,1 @@
+Both of the processes, Child and Parent gets the different copies of global variable 'global_var' so when they modify, they modify their personal copies of global variable. So when we see the output for both Parent and Child, they are different.

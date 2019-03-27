@@ -1,0 +1,41 @@
+a.How many CPU and cores does the machine have?
+Ans- There is 8 Processors and 4 cores.
+CPUs = Threads per core X cores per socket X sockets
+1)lscpu | grep -E '^Thread|^Core|^Socket|^CPU\('
+2)cat /proc/cpuinfo | grep processor | wc -l
+  cat /proc/cpuinfo | grep -m 1 'cpu cores'
+
+
+
+
+b.What is the frequency of each CPU ?
+Ans- cat /proc/cpuinfo | grep "^[c]pu MHz"
+cpu MHz		: 1998.000
+cpu MHz		: 1998.000
+cpu MHz		: 1998.000
+cpu MHz		: 1998.000
+cpu MHz		: 1998.000
+cpu MHz		: 1998.000
+cpu MHz		: 1998.000
+cpu MHz		: 1998.000
+
+
+c.How much memory does your system have?
+Ans- cat /proc/meminfo | grep -m 1 'MemTotal'
+MemTotal:        3952324 kB
+
+d.How much of it is free and available? What is the difference between them?
+Ans- 
+MemFree:          234644 kB
+MemAvailable:    1634148 kB
+Differenece:     1399504 kB
+    
+e.What is total number of user-level processes in the system?
+Ans- Tasks: 272 total,   1 running, 267 sleeping,   4 stopped,   0 zombie
+
+
+COMMAND USED-:
+1. lscpu,cat /proc/cpuinfo //for a and b part 
+2. cat /proc/meminfo    //for c and d part
+3. top // for e part
+

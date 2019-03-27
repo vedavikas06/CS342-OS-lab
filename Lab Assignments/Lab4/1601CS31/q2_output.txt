@@ -1,0 +1,10 @@
+Before Fork
+output 120 of process id : 28084
+-------------
+parent process
+output 120 of process id : 28084
+-------------
+child process
+output 120 of process id : 28085
+-------------
+

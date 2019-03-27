@@ -1,0 +1,1 @@
+The contents of pipe1.txt file is shown using cat comman. Using the pipe operator, we send the contents of cat command to sed command. The sed command replaces all the instances 'peeps' to 'pipes' and write to a new file pipenew.txt.

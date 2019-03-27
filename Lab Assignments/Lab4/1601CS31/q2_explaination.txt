@@ -1,0 +1,1 @@
+Both of the processes, Child and Parent gets the same copy of factorial function so they returns the same value while called form each of them. Moreover they have same value of number also whose factorial to be found. But when we see outputs, Child and Parents have different Process Ids.

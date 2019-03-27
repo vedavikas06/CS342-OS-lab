@@ -1,0 +1,6 @@
+parent process
+p : 1
+-------------
+child process
+p : 1
+-------------
